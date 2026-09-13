@@ -1,0 +1,28 @@
+{
+  "name": "ts-langchain-notes-to-json",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "chat-once": "tsx src/chat-once.ts",
+    "prompt-template": "tsx src/prompt-template.ts",
+    "parse-json": "tsx src/parse-json.ts",
+    "app": "tsx src/app.ts",
+    "compare-models": "tsx src/compare-models.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "1.2.11",
+    "@langchain/openai": "1.5.13",
+    "dotenv": "17.4.2",
+    "openai": "7.15.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.11",
+    "tsx": "4.23.13",
+    "typescript": "5.9.3"
+  }
+}
