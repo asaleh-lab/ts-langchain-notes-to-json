@@ -38,3 +38,13 @@ npm run app
 ```
 
 Open http://127.0.0.1:5000
+
+## Compare two models
+
+```powershell
+npm run compare-models
+```
+
+Same note, same prompt, same parser. Only the model name changes (`gpt-4o-mini` then `gpt-3.5-turbo`). You should see two objects. Wording can differ but the keys should not.
+
+This article is a practical implementation of the concepts in [Develop Generative AI Applications: Get Started](https://www.coursera.org/learn/develop-generative-ai-applications-get-started).
