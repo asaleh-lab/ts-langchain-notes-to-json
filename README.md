@@ -18,3 +18,9 @@ Put your OpenAI API key in `.env`.
 ```powershell
 npm run chat-once
 ```
+
+## Let's fill the prompt template with the notes
+
+```powershell
+npm run prompt-template
+```
