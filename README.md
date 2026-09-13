@@ -24,3 +24,9 @@ npm run chat-once
 ```powershell
 npm run prompt-template
 ```
+
+## Now the parser comes in
+
+```powershell
+npm run parse-json
+```
