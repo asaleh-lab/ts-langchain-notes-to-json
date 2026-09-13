@@ -30,3 +30,11 @@ npm run prompt-template
 ```powershell
 npm run parse-json
 ```
+
+## Serve it with a small Node server
+
+```powershell
+npm run app
+```
+
+Open http://127.0.0.1:5000
